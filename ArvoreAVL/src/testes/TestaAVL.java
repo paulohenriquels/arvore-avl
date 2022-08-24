@@ -27,6 +27,10 @@ public class TestaAVL {
 		System.out.println();
 		avl.imprime();
 		
+		avl.remover(10);
+		
+		avl.imprime();
+		
 	}
 
 }
